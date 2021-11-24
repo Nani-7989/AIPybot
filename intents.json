@@ -1,0 +1,45 @@
+{
+    "intents":[
+        {
+            "tag" : "greetings",
+            "patterns":["hello","hey","hi","good day","what's up ?","how is it gping ? "],
+            "responses":["hello","hey!","how can i help you"]
+            },
+        {
+            "tag" : "goodbye",
+            "patterns":["cya","see ya later","goodbye","exit","i'm leaving","have a good day","bye","ciao","later buddy"],
+            "responses":["Talk to you later","goodbye","okay"]
+
+        },
+        {
+            "tag": "age",
+                "patterns": ["how old", "how old ganii is","what is your age","how old are you","age?"],
+                "responses": ["Ganii is 21 years old!", "21 years"]
+                
+        },
+        {
+            "tag": "name",
+                "patterns": ["what is your name","What should I call you","whats your name?","who are you?","Can you tell me"],
+                "responses": ["You can call me Jexi!.","I'm Jexi!", "I'm Neural the assistant of Jexi!"]
+        },
+
+        {
+            "tag": "shop",
+                "patterns": ["Id like to buy something","what are your products?","what do you recommend?", "What are you selling"],
+                "responses": ["Products of amazon,myntra,nykaa,flipkart etc i can order what ever you want just name a thing"]
+        },
+        {
+            "tag": "hours",
+                "patterns": ["when are you guys open","what are your hours","hours of op"],
+                "responses": ["24/7","Any hour mate"]
+        },
+        {"tag": "stocks",
+            "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing"],
+            "responses": ["You Own the following shares: ABBV, AAPL, FB, NDA and an ATF of the S&P 500 Index!"]},
+            {
+                "tag":"Radio",
+                "patterns":["radios","music","podcast","spotify","gaana","resso","play online music"],
+                "responses":["that's some noice idea there pal", "good choice big head"]
+            }
+    ]
+}
