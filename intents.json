@@ -40,6 +40,26 @@
                 "tag":"Radio",
                 "patterns":["radios","music","podcast","spotify","gaana","resso","play online music"],
                 "responses":["that's some noice idea there pal", "good choice big head"]
+            },
+            {
+                "tag": "Ask me about a Pokémon. You can try one of my suggestions here right away!",
+                "patterns": [
+                    {
+                        "content_type": "text",
+                        "title": "Bulbasaur",
+                        "payload": "a"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Charmander",
+                        "payload": "b"
+                    },
+                    {
+                        "content_type": "text",
+                        "title": "Squirtle",
+                        "payload": "c"
+                    }
+                ]
             }
     ]
 }
